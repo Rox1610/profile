@@ -1,0 +1,116 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: rgb(148,180,159);
+  color: rgb(65,63,66);
+  font-size: 17 px;
+  line-height: normal;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  color: rgb(172,112,136);
+  font-size: 20 px;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card{
+  background-color:rgb(238,238,238);
+  padding: 50px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid rgb(252,248,232);
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.fab{
+  font-size: 48px;
+}
+
+#logo{
+  width: 17px
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul > li {
+  display: inline;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.fa-square-facebook{
+  color: rgb(22,111,229);
+  transition: 0.3s ease;
+}
+
+.fa-square-github{
+  color: rgb(0,0,0);
+  transition: 0.3s ease;
+}
+
+.fa-square-instagram{
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.3s ease;
+}
+
+i:hover{
+  opacity: 0.5;
+}
+
+.btn-pink{
+  background-color: rgb(222,182,171);
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: rgb(238,238,238);
+  margin-top: 20px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+.btn-pink:hover {
+  background-color: rgb(236,204,178);
+}
+
+.avatar-round {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
